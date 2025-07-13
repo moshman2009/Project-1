@@ -77,3 +77,35 @@ nav ul li a{
 .search  img{
     max-width: 1.5rem;
 }
+.descrip_container{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.descrip_{
+    display: flex;
+}
+.descrip_ img{
+    width: 8rem;
+}
+.text{
+    max-width: 40%;
+}
+.head{
+    font-weight: bold;
+    font-size: larger;
+}
+.cont{
+    max-width: 80%;
+}
+.more{
+    display: flex;
+    
+}
+.more a{
+    display: flex;
+    align-items: center;
+}
+.more a img{
+    width: 7%;
+}
