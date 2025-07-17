@@ -2,7 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
+
+
+/* HEAD */
+
 header{
     background-color: #000;
 }
@@ -47,13 +52,14 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 7rem 2rem;
+    padding: 9.2rem 2rem;
 }
 .cer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    margin: auto;
 }
 .ques h1{
     font-size: 5rem;
@@ -74,23 +80,46 @@ nav ul li a{
     padding: 0.3rem 15rem .3rem 0.2rem;
     border: none;
 }
-.search  img{
-    max-width: 1.5rem;
+.search  span{
+    font-size: 150%;
+    font-weight: lighter ;
 }
-.descrip_container{
-display: flex;
-align-items: center;
-justify-content: space-around;
+
+
+/* MAIN PART */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 15rem;
+    margin: auto;
+    columns: 2;
+    margin-top: 3rem;
+    margin-left: 5%;
 }
+
 .descrip_{
     display: flex;
+    width: 45%;
+    margin-bottom: 1rem;
+    gap: 2rem;
 }
+
 .descrip_ img{
-    width: 8rem;
+    width: 7rem;
+    height: 7rem;
 }
+
 .text{
     max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
+
 .head{
     font-weight: bold;
     font-size: larger;
@@ -98,14 +127,10 @@ justify-content: space-around;
 .cont{
     max-width: 80%;
 }
-.more{
-    display: flex;
-    
-}
 .more a{
     display: flex;
     align-items: center;
-}
-.more a img{
-    width: 7%;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #4C5FD5;
 }
