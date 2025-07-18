@@ -20,7 +20,7 @@ header{
 }
 .logoimg{
     width: 3.5rem;
-    height: auto;
+    height: 3.5rem;
 }
 .logo span{
     color: whitesmoke;
@@ -98,13 +98,14 @@ main{
     columns: 2;
     margin-top: 3rem;
     margin-left: 5%;
+    margin-bottom: 4%;
 }
 
 .descrip_{
     display: flex;
     width: 45%;
-    margin-bottom: 1rem;
-    gap: 2rem;
+    margin-bottom: 3rem;
+    gap: 1.5rem;
 }
 
 .descrip_ img{
@@ -113,19 +114,18 @@ main{
 }
 
 .text{
-    max-width: 40%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
 }
 
 .head{
     font-weight: bold;
     font-size: larger;
+    margin-bottom: 1rem;
 }
-.cont{
-    max-width: 80%;
+.info{
+    width: 80%;
 }
 .more a{
     display: flex;
@@ -133,4 +133,43 @@ main{
     margin-top: 1rem;
     text-decoration: none;
     color: #4C5FD5;
+}
+
+
+/* FOOTER */
+
+footer{
+    margin-top: 20rem;
+    columns: 5;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #fff;
+    padding: 2rem 5rem 8rem 5rem;
+    flex-wrap: wrap;
+}
+
+.ft_container{
+    padding: .5rem;
+    width: 20% ;
+    flex-wrap: wrap;
+}
+.ft_head{
+    margin-bottom: .7rem;
+    font-weight: bold;
+    font-size: larger;
+    flex-wrap: wrap;
+}
+ ul li{
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.down {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.down li{
+    margin: 0;
+    flex-wrap: wrap;
 }
